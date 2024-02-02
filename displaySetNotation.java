@@ -17,7 +17,7 @@ public class displaySetNotation
         String set;
         System.out.println("Size of Set: " + size);
         for (int i = 0; i < size;i++) {
-            System.out.print(i + ". |\t");
+            System.out.print(i+1 + ". \t|\t");
             set = setNotationMap.get(i);
             for (int j = 0; j < set.length();j++) {
                 System.out.print(set.substring(j, j+1) + "\t");
